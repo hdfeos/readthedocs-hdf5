@@ -1,8 +1,11 @@
-=====
 Tools
 =====
---------
+
 h5repack
 --------
  h5repack copies an HDF5 file to a new file with or without compression
  and/or chunking.
+
+h5stat
+-------
+ h5stat reports statistics regarding an HDF5 file and the objects in the file.
