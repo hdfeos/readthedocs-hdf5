@@ -2,6 +2,7 @@ Hard Link
 ==========
 
 Characteristics of a hard link:
+
 - A hard link is made with a physical address in the file
 - A hard link occurs within a single file
 - When a group or dataset is created, a hard link is also created
