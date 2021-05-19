@@ -6,3 +6,4 @@ HDF5
     format
     library
     tools
+    faq
