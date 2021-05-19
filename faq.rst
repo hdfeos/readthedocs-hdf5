@@ -1,6 +1,9 @@
 
-Will accessing or reading a dataset be slower if your file contains many datasets?
+FAQ
 ====
+
+Will accessing or reading a dataset be slower if your file contains many datasets?
+----
 Yes.
 
 Accessing a dataset in a file with many datasets *will* be slower than accessing it from a file with just that dataset. 
