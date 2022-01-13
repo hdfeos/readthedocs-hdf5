@@ -2,9 +2,9 @@
 FAQ
 ====
 
-Running ``./autogen.sh`` fails with libtool not found error.
+Running ``./autogen.sh`` fails with ``libtool`` not found error.
 ----
-Install libtool using package manager and try ``export HDF5_LIBTOOL=/usr/local/bin/libtool``.
+Install ``libtool`` using package manager and try ``export HDF5_LIBTOOL=/usr/local/bin/libtool``.
 
 Will accessing or reading a dataset be slower if your file contains many datasets?
 ----
