@@ -2,7 +2,11 @@
 FAQ
 ====
 
-Running ``./autogen.sh`` fails with ``libtool`` not found error.
+Why does ``README.md`` starts with a version number?
+----
+``configure.ac`` parses the file to set version for library settings.
+
+Running ``./autogen.sh`` fails with ``libtool not found`` error.
 ----
 Install ``libtool`` using package manager and try ``export HDF5_LIBTOOL=/usr/local/bin/libtool``.
 
