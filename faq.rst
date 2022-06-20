@@ -24,3 +24,7 @@ The time to search a btree structure to find a node is log(n) speed where *n8 is
 Performance can be alleviated by not storing as many datasets in a group. 
 For example, if you have 1,000,000 datasets, performance will be better 
 if you store 1,000 datasets in 1,000 separate groups rather than storing them all in one group.
+
+Why does the file size grow exponentially in Single-Writer-Multiple-Reader (SWMR) mode even if compression is used?
+----
+  File space recycling is not allowed. Thus, the size of a file modified by a SWMR writer may be larger than a file modified by a non-SWMR writer.
