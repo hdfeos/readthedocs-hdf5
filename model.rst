@@ -1,7 +1,7 @@
 Model
 =====
 
-The HDF5 Data Model consts of DAG:
+The HDF5 Data Model consists of DAG:
 
   - dataset
   - attribute
