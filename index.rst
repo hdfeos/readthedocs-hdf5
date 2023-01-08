@@ -5,6 +5,6 @@ HDF5
     model
     format
     library
-    spack
+      spack
     tools
     faq
