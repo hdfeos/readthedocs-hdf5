@@ -1,3 +1,5 @@
+
+
 Library
 =======
 
@@ -6,3 +8,7 @@ The HDF5 Library provides a programming interface to a concrete implementation o
 Debugging
 ---------
 Use --enable-build-mode=debug.
+
+.. toctree::
+
+    spack
