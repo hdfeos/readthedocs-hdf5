@@ -1,5 +1,5 @@
 Spack
-=====
+----
 
 The current version of hdf5 in Spack is based on `CMake`.
 The h5cc is based on `pkgconfig`. 
