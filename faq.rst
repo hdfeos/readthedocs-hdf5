@@ -2,6 +2,10 @@
 FAQ
 ====
 
+What's the minimum CMake version for HDF5 1.13.3?
+----
+3.18. Ubuntu 20.04 has CMake 3.16 and can't build it.
+
 Why does ``README.md`` starts with a version number?
 ----
 ``configure.ac`` parses the file to set version for library settings.
