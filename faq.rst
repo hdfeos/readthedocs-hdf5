@@ -2,7 +2,7 @@
 FAQ
 ====
 
-What's the minimum CMake version for HDF5 1.13.3?
+What's the minimum CMake version for HDF5 1.14.0?
 ----
 3.18. Ubuntu 20.04 has CMake 3.16 and can't build it.
 
