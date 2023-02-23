@@ -4,10 +4,9 @@ HDF5
   
 .. toctree:: 
    :maxdepth: 2
+              
+   contents
+   model
+   format
+   library
 
-    model
-    format
-    library
-    tools
-    faq
-        spack

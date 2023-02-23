@@ -1,21 +1,24 @@
-
 FAQ
 ====
 
+.. toctree::
+   spack
+
 What's the minimum CMake version for HDF5 1.14.0?
-----
+-------------------------------------------------
 3.18. Ubuntu 20.04 has CMake 3.16 and can't build it.
 
 Why does ``README.md`` starts with a version number?
-----
+----------------------------------------------------
 ``configure.ac`` parses the file to set version for library settings.
 
 Running ``./autogen.sh`` fails with ``libtool not found`` error.
-----
-Install ``libtool`` using package manager and try ``export HDF5_LIBTOOL=/usr/local/bin/libtool``.
+----------------------------------------------------------------
+Install ``libtool`` using package manager and
+try ``export HDF5_LIBTOOL=/usr/local/bin/libtool``.
 
 Will reading a dataset be slower if your file contains many datasets?
-----
+---------------------------------------------------------------------
 Yes.
 
 Accessing a dataset in a file with many datasets *will* be slower
@@ -35,17 +38,18 @@ if you store 1,000 datasets in 1,000 separate groups
 rather than storing them all in one group.
 
 Why does the file size grow exponentially in Single-Writer-Multiple-Reader?
-----
-  Single-Writer-Multiple-Reader (SWMR) mode grows file size exponentially
+---------------------------------------------------------------------------
+Single-Writer-Multiple-Reader (SWMR) mode grows file size exponentially
 because it doesn't allow file space recycling.
 Thus, the size of a file modified by a SWMR writer may be larger
 than a file modified by a non-SWMR writer.
 It will grow even if you use compression.
 
 Why doesn't Spack set ``HDF5_VOL_CONNECTOR`` environment variable?
-----
+------------------------------------------------------------------
 ``HDF5_VOL_CONNECTOR`` is a runtime choice of HDF5 applicatoin.
 It is possible to have multiple Virtual Object Layers (VOLs)
 activated in the same environment.
 If Spack VOL packages set it, they will overwrite user's
 HDF5_VOL_CONNECTOR configuration silently.
+

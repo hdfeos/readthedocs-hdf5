@@ -1,5 +1,5 @@
 Hard Link
-==========
+*********
 
 Characteristics of a hard link:
 

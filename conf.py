@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'hdf5'
+project = 'HDF5'
 copyright = '2021-2023, hdfeos'
 author = 'hdfeos'
 
@@ -56,7 +56,3 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_theme_options = {
-    'navigation_depth': 9
-}
