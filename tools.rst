@@ -1,6 +1,14 @@
 Tools
 *****
 
+HDFView
+=======
+ HDFView is a graphical user interface (GUI) tool.
+ It cannot handle everything that HDF5 library provides.
+ For example, it cannot handle a compound data type
+ that contains an array of compound data types.
+ 
+
 h5dump
 ======
  h5dump dumps data from HDF5 file.
