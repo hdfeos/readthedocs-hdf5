@@ -53,3 +53,17 @@ activated in the same environment.
 If Spack VOL packages set it, they will overwrite user's
 HDF5_VOL_CONNECTOR configuration silently.
 
+Why does `H5Dget_space_status()` return incorrect space allocation status?
+------------------------------------------------------------------------
+Before HDF5 1.13.1, 1.12.2, and 1.10.9,
+`H5Dget_space_status()` could return incorrect space allocation status values
+for datasets with filters applied.
+This was because `H5Dget_space_status()` calculated the space allocation status
+by comparing the sum of the sizes of all the allocated chunks in the dataset
+to the total data size of the dataset.
+However, if the dataset had any compression filters applied and
+the chunks were successfully compressed,
+the sum of the sizes of the allocated chunks would always be less than
+the total data size of the dataset.
+As a result, `H5Dget_space_status()` would never return
+`H5D_SPACE_STATUS_ALLOCATED`.
