@@ -67,3 +67,8 @@ the sum of the sizes of the allocated chunks would always be less than
 the total data size of the dataset.
 As a result, `H5Dget_space_status()` would never return
 `H5D_SPACE_STATUS_ALLOCATED`.
+
+What is number in the subfile name created by subfiling virtual file driver?
+------------------------------------------------------------------------
+It is UNIX inode number.
+It should match the `ls -i` output of stub file.
