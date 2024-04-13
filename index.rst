@@ -5,5 +5,8 @@ HDF5
 
 .. toctree::
 
+  model
+  format
+  library   
   ref
-  
+
