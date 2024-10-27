@@ -43,7 +43,7 @@ Single-Writer-Multiple-Reader (SWMR) mode grows file size exponentially
 because it doesn't allow file space recycling.
 Thus, the size of a file modified by a SWMR writer may be larger
 than a file modified by a non-SWMR writer.
-It will grow even if you use compression.
+It will grow even faster if you use compression.
 
 Why doesn't Spack set ``HDF5_VOL_CONNECTOR`` environment variable?
 ------------------------------------------------------------------
