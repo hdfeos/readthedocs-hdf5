@@ -8,10 +8,6 @@ Level 0
   This is metadata about file itself.
 
 .. mermaid:: g.mmd
-    graph LR
-        A[Start] --> B{Decision}
-        B -- Yes --> C[End]
-        B -- No --> D[End]
 
         
 Level 0A
