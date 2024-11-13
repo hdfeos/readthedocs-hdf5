@@ -1,13 +1,14 @@
 packet-beta
     title Level 0
-        0-7: "HDF5 File Signature"
-        8: "Version # of Super Block"
-        9: "Version # of Global Free-space Storage"
-        10: "Version # of Group"
-        11: "Reserved"
-        12: "Version # of Shared Header Message Format"
-        13: "Size of Offsets"
-        14: "Size of Lengths"
-        15: "Reserved (zero)"
+        0-31: "HDF5 File Signature"
+        32-63: "HDF5 File Signature"        
+        64-71: "Version # of Super Block"
+        72-79: "Version # of Global Free-space Storage"
+        80-87: "Version # of Group"
+        88-95: "Reserved"
+        96-103: "Version # of Shared Header Message Format"
+        104-111: "Size of Offsets"
+        112-119: "Size of Lengths"
+        120-127: "Reserved (zero)"
         
         
