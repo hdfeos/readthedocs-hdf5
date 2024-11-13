@@ -7,7 +7,7 @@ Level 0
 -------
   This is metadata about file itself.
 
-.. mermaid:: g.mmd
+.. mermaid:: l0.mmd
 
         
 Level 0A
