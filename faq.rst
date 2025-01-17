@@ -4,6 +4,12 @@ FAQ
 .. toctree::
    spack
 
+Can I create a file with a file image?
+--------------------------------------
+No. The purpose of ``H5Pset_file_image()`` is to set an initial state
+for the file without the library needing to read it from disk.
+
+
 What's the minimum CMake version for HDF5 1.14.0?
 -------------------------------------------------
 3.18. Ubuntu 20.04 has CMake 3.16 and can't build it.
