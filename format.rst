@@ -7,6 +7,7 @@ The default *k* value of version 1 B-tree
 
 * chunk indices: 32
 * group symbol tables
+
   * internal nodes: 16
   * leaf node: 4
 
