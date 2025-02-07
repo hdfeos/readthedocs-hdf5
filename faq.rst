@@ -60,7 +60,7 @@ If Spack VOL packages set it, they will overwrite user's
 HDF5_VOL_CONNECTOR configuration silently.
 
 Why does `H5Dget_space_status()` return incorrect space allocation status?
-------------------------------------------------------------------------
+--------------------------------------------------------------------------
 Before HDF5 1.13.1, 1.12.2, and 1.10.9,
 `H5Dget_space_status()` could return incorrect space allocation status values
 for datasets with filters applied.
@@ -75,6 +75,6 @@ As a result, `H5Dget_space_status()` would never return
 `H5D_SPACE_STATUS_ALLOCATED`.
 
 What is number in the subfile name created by subfiling virtual file driver?
-------------------------------------------------------------------------
+----------------------------------------------------------------------------
 It is UNIX inode number.
 It should match the `ls -i` output of stub file.
